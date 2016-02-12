@@ -27,7 +27,7 @@ namespace loginProjectRyanBos
             if(userTextBox.Text == "djkhaled" && passTextBox.Text == "lions" )
             {
                 
-
+                // kushscoper
                 homePage hp = new homePage();
                 hp.Location = new Point((Width - hp.Width), (this.Height = hp.Height));
                 this.Controls.Add(hp);
