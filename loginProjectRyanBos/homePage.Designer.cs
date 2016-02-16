@@ -49,6 +49,7 @@
             this.logoutButton.TabIndex = 1;
             this.logoutButton.Text = "LOG OUT";
             this.logoutButton.UseVisualStyleBackColor = true;
+            this.logoutButton.Click += new System.EventHandler(this.logoutButton_Click);
             // 
             // homePage
             // 

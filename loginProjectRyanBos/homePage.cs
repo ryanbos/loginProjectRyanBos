@@ -16,5 +16,17 @@ namespace loginProjectRyanBos
         {
             InitializeComponent();
         }
+
+        private void logoutButton_Click(object sender, EventArgs e)
+        {
+            //logInScreen lis = new logInScreen();
+            //this.Controls.Add(lis);
+
+            Form f = this.FindForm();
+            f.Controls.Remove(this);
+            logInScreen lis = new logInScreen();
+            f.Controls.Add(lis);
+            lis.Location = new Point((f.Width - lis.Width) / 2, (f.Height - lis.Height) / 2);
+        }
     }
 }

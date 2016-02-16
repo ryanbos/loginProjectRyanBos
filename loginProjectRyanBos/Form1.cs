@@ -12,26 +12,16 @@ namespace loginProjectRyanBos
 {
     public partial class Form1 : Form
     {
-        public static string username = "djkhaled";
-        public static string password = "lions";
-        int test = 0;
+
+
 
         public Form1()
         {
             InitializeComponent();
-            
-        }
+            logInScreen lis = new logInScreen();
+            this.Controls.Add(lis);
 
-        private void loginButton_Click(object sender, EventArgs e)
-        {
-            if(userTextBox.Text == "djkhaled" && passTextBox.Text == "lions" )
-            {
-                
-                // kushscoper
-                homePage hp = new homePage();
-                hp.Location = new Point((Width - hp.Width), (this.Height = hp.Height));
-                this.Controls.Add(hp);
-            }
         }
     }
 }
+
