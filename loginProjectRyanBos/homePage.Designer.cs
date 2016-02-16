@@ -35,11 +35,11 @@
             // welcomeBackLabel
             // 
             this.welcomeBackLabel.AutoSize = true;
-            this.welcomeBackLabel.Location = new System.Drawing.Point(131, 85);
+            this.welcomeBackLabel.Location = new System.Drawing.Point(110, 84);
             this.welcomeBackLabel.Name = "welcomeBackLabel";
-            this.welcomeBackLabel.Size = new System.Drawing.Size(35, 13);
+            this.welcomeBackLabel.Size = new System.Drawing.Size(80, 13);
             this.welcomeBackLabel.TabIndex = 0;
-            this.welcomeBackLabel.Text = "label1";
+            this.welcomeBackLabel.Text = "Welcome Back";
             // 
             // logoutButton
             // 
