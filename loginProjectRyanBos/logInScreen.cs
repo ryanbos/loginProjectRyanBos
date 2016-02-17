@@ -33,7 +33,7 @@ namespace loginProjectRyanBos
             }
             else
             {
-                label3.Text = "There are no mistakes, just happy acidents";
+                label3.Text = "There are no mistakes, just happy accidents";
                 userTextBox.Text = "";
                 passTextBox.Text = "";
             }
